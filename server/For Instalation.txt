@@ -1,0 +1,3 @@
+For Backend Setup Download the following Packages:
+
+npm i express cors dotenv nodemon jsonwebtoken mongoose bcryptjs nodemailer cookie-parser
