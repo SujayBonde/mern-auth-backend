@@ -13,7 +13,10 @@ const port = process.env.PORT || 4000;
 dotenv.config(); // Load .env here too
 connectDB(); // Connect to MongoDB
 
-const allowedOrigins=['http://localhost:5173']
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://mern-auth-frontend-sujay.netlify.app'
+];
 
 
 app.use(express.json());
